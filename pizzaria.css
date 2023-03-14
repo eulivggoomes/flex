@@ -1,0 +1,174 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    background-color:aqua;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    padding-left: 16px;
+    font-weight: 600;
+    height: 80px;
+    padding: 25px;
+}
+
+nav > ul > li:hover {
+    background-color: brown;
+}
+
+.hero {
+    width: 100vw;
+    height: 400px;
+    background-image: url(pizza.jpg);
+    background-size: 800px;
+    background-position: 30% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textodestaques {
+    font-size: 60px;
+    color:white;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+    
+}
+
+main {
+    width: 100vw;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main > h2 {
+    font-size: 40px;
+    color: darkgoldenrod;
+}
+
+.linha{
+    width: 80vw;
+    height: 5px;
+    background-color: rgb(152, 1, 1);
+    margin: 20px 0;
+}
+
+main > p {
+    font-size: 30px;
+}
+
+.cards {
+    margin: 30px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    
+   
+}
+
+.cards img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards > .card > .info {
+    background-color: rgb(127, 221, 221);
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.cards > .card > .info > .pizza{
+    color:white;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.cards > .card > .info > .preco {
+    background-color: antiquewhite;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+main > a:link {
+    width: 200px;
+    height: 60px;
+    background-color:rgb(152, 1, 1);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    font-weight: 600px;
+    transition: background-color 1s;
+}
+
+main > a:hover {
+    background-color: rgb(42, 91, 165);
+}
+
+footer{
+   width:100vw;
+   margin: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: rgb(182, 250, 250);
+   color: black;
+}
+
+footer > .endereco {
+font-size: 20px;
+}
+
+.sociais ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+}
+
+.sociais li{
+    padding-top: 16px;
+}
